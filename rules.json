@@ -1,0 +1,11 @@
+// configure with custom domain: www.example.com 
+// please check https://zeit.co/blog/path-alias
+{
+	"rules": [
+		{ "pathname": "/python", "dest": "flask-eqqpjacpnn.now.sh" },
+		{ "pathname": "/ruby", "dest": "sinatra-icctqzeeil.now.sh" },
+		{ "pathname": "/javascript", "dest": "javascript-vkayicvkky.now.sh" },
+		{ "pathname": "/", "dest": "javascript-vkayicvkky.now.sh" },
+		{ "dest": "www.test-alias.now.sh" }
+	]
+}
